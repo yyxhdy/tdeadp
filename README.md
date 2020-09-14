@@ -1,7 +1,7 @@
 # <a href="https://www.codecogs.com/eqnedit.php?latex=\huge&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\huge&space;\theta" title="\huge \theta" /></a>-DEA-DP
 
 This project implements a surrogate-assisted evolutionary algorithm, called <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a>-DEA-DP, for expensive multi-obejctive optimziation. This algorithm maintains two deep neural networks as surrogates, one for Pareto dominance prediction and another for <a href="https://www.codecogs.com/eqnedit.php?latex=\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta" title="\theta" /></a>-dominance prediction. 
-Through a two-stage preselection strategy, the two classification-based surrogates interact with the evolutionary mulit-objective optimization process in order to select promising solutions for function evaluation. 
+Through a two-stage preselection strategy, the two classification-based surrogates interact with a multi-objective evolutionary optimization process in order to select promising solutions for function evaluation. 
 
 
 
